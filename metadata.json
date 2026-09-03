@@ -1,0 +1,7 @@
+{
+  "uuid": "ollama-monitor@localhost",
+  "name": "Ollama Monitor",
+  "description": "Top-bar indicator for a local Ollama server.\n\nShows the currently loaded model in the panel, lets you load (from the 5 most recently installed models), unload, start or stop the service, and sends a desktop notification whenever a model is loaded into or removed from VRAM.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/kstelmaczonek/ollama-monitor"
+}

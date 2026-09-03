@@ -1,0 +1,24 @@
+{
+  "name": "ollama-monitor",
+  "version": "1.0.0",
+  "description": "A minimal top-bar indicator for [Ollama](https://ollama.com) on GNOME (Fedora Workstation, GNOME 45+).",
+  "scripts": {
+    "lint": "eslint extension.js",
+    "build": "glib-compile-resources --sourcedir=. ollama-monitor.gresource.xml --target=ollama-monitor.gresource"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karol-Stelmaczonek/ollama-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Karol-Stelmaczonek/ollama-monitor/issues"
+  },
+  "homepage": "https://github.com/Karol-Stelmaczonek/ollama-monitor#readme",
+  "devDependencies": {
+    "@eslint/config-helpers": "^0.7.0",
+    "eslint": "^9.39.5",
+    "eslint-config-gnome": "git+https://gitlab.gnome.org/World/javascript/eslint-config-gnome.git",
+    "globals": "^17.12.0"
+  },
+  "type": "module"
+}
